@@ -7,13 +7,9 @@ I’m working on finishing a backup tool in Java with multithreading and dynamic
 The basic GUI is created with FXML, and I’ve implemented several AES encryption methods.  
 Timing can be set per minute, day, or specific date.
 
----
-
 ## Overview of Projects
 
 - **Guttis** — Static website with Bootstrap, live on GitHub Pages and Cloudflare Proxy Server.
 - **BackupTool** — Java backup app with multithreading, encryption, and flexible scheduling.
 
----
-
-*Feel free to check out the repositories and leave feedback!*
+**Feel free to check out the repositories and leave feedback!**
