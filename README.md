@@ -41,3 +41,8 @@ Die App kann mit IntelliJ und Maven gestartet und getestet werden.
 - **BackupTool** – Java-Backup-Tool mit Multithreading, AES-Verschlüsselung & Zeitplanung
 
 Schau dir die Repositories gern an und hinterlasse Feedback!
+
+
+- https://github.com/123Matthias/Guttis
+  
+- https://github.com/123Matthias/BackupTool
