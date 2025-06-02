@@ -30,18 +30,86 @@
         async function insertReadme() {
             const text = await getReadme();
             document.getElementById('content').innerHTML = marked.parse(text);
+
         }
 
-        insertReadme();
+
+            async function initPage() {
+        await insertReadme();
+        addFadeToList();
+        makeTopOverflowVisible();
+        contentFade();
+        cardObserver();
+    }
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            initPage();
+        });
+
+        window.addEventListener('resize', contentFade);
+
+        function addFadeToList() {
+            document.querySelectorAll(".content *").forEach(element => {
+                element.classList.add("fade-in-up");
+            });
+        }
+
+        function contentFade() {
+            const elements = document.querySelectorAll('.fade-in-up');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0, rootMargin: '0px 0px 50px 0px' });
+
+            elements.forEach(el => observer.observe(el));
+
+
+        }
+
+        // Wenn Seite komplett geladen + Scrollposition wiederhergestellt
+        window.addEventListener('pageshow', () => {
+            requestAnimationFrame(makeTopOverflowVisible);
+        });
+
+        function makeTopOverflowVisible() {
+            const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+            console.log("psition Y: " + scrollY);
+
+            const triggerLine = window.scrollY + window.innerHeight; // Unterkante sichtbarer Bereich
+            const elements = document.querySelectorAll('.fade-in-up');
+            elements.forEach(el => {
+                const elTop = el.getBoundingClientRect().top + window.scrollY;
+                if (elTop < triggerLine) {
+                    // Element ist schon im sichtbaren Bereich oder oberhalb davon (geladen)
+                    el.classList.add('visible');
+                }
+            });
+        }
 
     </script>
 
 </head>
 
 <body>
+    <section class="header-section">
+        <div class="intro">
+            <h1 class="header-text">
+                Welcome at my <br>
+                <span>Git Hub</span> <br>
+                <span>Landing Page </span>
+            </h1>
+
+        </div>
+        <div class="image-wrapper">
+            <img class="avatar-bg" src='me.PNG' />
+        </div>
+    </section>
     <section class="container">
         <div id="content" class="content"></div>
-        <img class="avatar-bg" src='me.PNG' />
     </section>
 
     <footer>
