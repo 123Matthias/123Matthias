@@ -4,7 +4,7 @@
 
 The pinned public repositories below — especially **Guttis** and **BackupTool** — are not just hobby projects.
 
-**Guttis** is a simple static website built with Bootstrap. It’s complete and live via GitHub Pages, using a Cloudflare proxy with basic SEO optimization.
+**Guttis** is a simple static website built with a little help of Bootstrap. It’s complete and deployed via Cloudflare. SEO optimazion is a basic feature of this website.
 
 I started working on **BackupTool**, a Java-based backup application. The project is currently around 60–70% finished regarding merge and full backup features.  
 It includes multithreading, dynamic memory buffering, and several AES encryption methods.  
@@ -24,12 +24,13 @@ Feel free to explore the repos and leave feedback!
 
 # Hallo!
 
-Die unten angepinnten öffentlichen Repositories — insbesondere **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
+Die unten angepinnten, bzw. verlinkten öffentlichen Repositories — insbesondere **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
 
-**Guttis** ist eine einfache statische Website, erstellt mit Bootstrap. Sie ist fertiggestellt und über GitHub Pages mit Cloudflare-Proxy sowie grundlegender SEO-Optimierung für Bing, DuckDuckGo, Google usw. erreichbar.
+**Guttis** ist eine einfache statische Website die fast zu 100% native in html, css und JS umgesetzt wurde. Bootstrap wurde für ein paar keinigkeiten als Unterstützung verwendet. 
+Sie ist fertiggestellt und über Cloudflare erreichbar. SEO-Optimierung für Bing, DuckDuckGo, Google usw. sind ein Kernfeature.
 
-Ich habe mit der Entwicklung von **BackupTool** begonnen – einer Backup-Anwendung in Java. Der Projektfortschritt liegt aktuell bei etwa 60–70 % im Hinblick auf die Merge- und Full-Backup-Funktionen.  
-Es nutzt Multithreading, dynamisches Speicher-Buffering und mehrere AES-Verschlüsselungsmethoden.  
+Ich habe weiters mit Entwicklung eines **Backup-Tools** begonnen. Der Projektfortschritt liegt aktuell bei etwa 60–70% der Merge- und Full-Backup-Funktionen.  
+Multithreading, dynamisches Speicher-Buffering und mehrere AES-Verschlüsselungsmethoden funktionieren im Run.
 Die GUI ist mit FXML umgesetzt, und Backups können minütlich, täglich oder zu einem bestimmten Datum geplant werden.  
 Die App kann mit IntelliJ und Maven gestartet und getestet werden.
 
