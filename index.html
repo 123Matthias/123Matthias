@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthias Leiter</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script>
+
+        async function getReadme() {
+            try {
+                const res = await fetch('README.md');
+                if (!res.ok) {
+                    throw new Error(`Fetch failed with status: ${res.status}`);
+                }
+                const text = await res.text();
+                return text;
+            } catch (error) {
+                alert(error.message);
+                console.error(error);
+                return "Fehler beim Laden der README-Datei.";
+            }
+        }
+
+        async function insertReadme() {
+            const text = await getReadme();
+            document.getElementById('content').innerHTML = marked.parse(text);
+        }
+
+        insertReadme();
+
+    </script>
+
+</head>
+
+<body>
+    <section class="container">
+        <div id="content" class="content"></div>
+        <img class="avatar-bg" src='me.PNG' />
+    </section>
+
+    <footer>
+        <p>This website is automatically generated from the README.md using JavaScript.</p>
+    </footer>
+</body>
+
+</html>

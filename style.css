@@ -1,0 +1,105 @@
+body {
+  background-color: #f9f9f9;
+  background-image:
+    linear-gradient(45deg, rgba(58, 141, 255, 0.02) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(58, 141, 255, 0.02) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(58, 141, 255, 0.02) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(58, 141, 255, 0.02) 75%);
+  background-size: 40px 40px;
+  color: #111;
+  background-attachment: fixed;
+}
+
+.avatar-bg {
+  display: block;
+  width: 40%;
+  height: auto;
+  filter: grayscale(100%);
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 100;
+  mask-image:
+    linear-gradient(to top, transparent 0%, black 30%),
+    linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+  -webkit-mask-image: 
+    linear-gradient(to top, transparent 0%, black 30%),
+    linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
+  mask-composite: intersect;
+  -webkit-mask-composite: destination-in;
+}
+
+.container {
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+  margin-bottom: 30px;
+  background-color: white;
+  z-index: 0;
+}
+
+.content {
+  padding: 30px;
+  position: relative;
+  z-index: 500;
+  width: 50%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f9f9f9 !important;
+    color: #111 !important;
+  }
+
+  .container {
+    background-color: white !important;
+    box-shadow: 0 0 20px black !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212 !important;
+    color: #eee !important;
+  }
+
+  .container {
+    background-color: #1e1e1e !important;
+    box-shadow: 0 0 20px white !important;
+  }
+}
+
+@media (max-width: 1100px){
+  .container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    box-shadow: none !important;
+  }
+
+  .content {
+    padding: 0;
+    width: 100%;
+    margin: 180px 0 0 0;
+  }
+
+  .avatar-bg {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 180px;
+    width: auto;
+    z-index: -1;
+  }
+}
