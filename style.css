@@ -13,6 +13,7 @@ body {
   background-position: fixed;
 }
 
+
 .avatar-bg {
   max-width: 100%;
   height: auto;
@@ -23,13 +24,8 @@ body {
   mask-image:
     linear-gradient(to top, transparent 0%, black 30%),
     linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
-  -webkit-mask-image:
-    linear-gradient(to top, transparent 0%, black 30%),
-    linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%);
   mask-composite: intersect;
-  -webkit-mask-composite: destination-in;
 }
-
 
 .header-section {
   display: flex;
