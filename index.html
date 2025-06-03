@@ -93,6 +93,12 @@
             });
         }
 
+        const bg = document.getElementById('bg-fix');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            bg.style.transform = `translateY(${scrollTop * 0.5}px)`; // Parallax-Effekt
+        });
+
     </script>
 
 </head>
