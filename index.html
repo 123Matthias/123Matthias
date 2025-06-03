@@ -43,6 +43,7 @@
             addFadeToList();
             makeTopOverflowVisible();
             contentFade();
+            isSafariMobile();
         }
 
 
@@ -93,17 +94,24 @@
             });
         }
 
-        const bg = document.getElementById('bg-fix');
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.scrollY;
-            bg.style.transform = `translateY(${scrollTop * 0.5}px)`; // Parallax-Effekt
-        });
+        function isSafariMobile() {
+            /* Abfrage für Safari Mobile background bug */
+            const ua = navigator.userAgent.toLowerCase();
+            const isSafari = ua.includes('safari') && !ua.includes('chrome') && !ua.includes('android');
+            const isMobile = ua.includes('mobile');
+            console.log('Safari: ' + isSafari + '\n' + 'isMobile: ' + isMobile)
+            if (isSafari && isMobile) {
+                // Safari Mobile
+                document.getElementById('body').style.background = 'none';
+            }
+        }
+
 
     </script>
 
 </head>
 
-<body>
+<body id="body">
     <section class="header-section fade-in-up">
         <div class="intro">
             <h1 class="header-text">
