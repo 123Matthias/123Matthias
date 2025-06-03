@@ -59,7 +59,7 @@ body {
   box-shadow: 0 0 20px black;
   margin-top: 80vh;
   margin-bottom: 30px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(240, 225, 255, 0.7);
   z-index: 0 !important;
   position: relative;
   z-index: 10;
