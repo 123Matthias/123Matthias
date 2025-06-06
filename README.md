@@ -45,7 +45,7 @@ Die App kann mit IntelliJ und Maven getestet werden.
 - **Guttis** – Statische Website (Bootstrap), bereitgestellt über GitHub Pages + Cloudflare  
 - **BackupTool** – Java-Backup-Tool mit Multithreading, AES-Verschlüsselung & Zeitplanung
 
-Schau dir die Repositories gern an und hinterlasse Feedback!
+hinterlasse Feedback!
 
 
 - https://github.com/123Matthias/Guttis

@@ -131,19 +131,25 @@
 </head>
 
 <body id="body">
-    <section class="header-section fade-in-up">
+    <div id="logoContainer">
+        <picture>
+            <source srcset="images/LogoM-dark.svg" media="(prefers-color-scheme: dark)" />
+            <img id="logo" src="images/LogoM-light.svg" alt="Logo" />
+        </picture>
+    </div>
+
+    <header class="header-section fade-in-up">
         <div class="intro">
             <h1 class="header-text">
                 Welcome to my <br>
                 <span style="color: dodgerblue;">GitHub</span> <br>
-                <span>landing page </span>
+                <span>Developer Account</span>
             </h1>
-
         </div>
         <div class="image-wrapper">
             <img class="avatar-bg" src='me.PNG' />
         </div>
-    </section>
+    </header>
     <section class="container">
         <div id="content" class="content"></div>
     </section>
