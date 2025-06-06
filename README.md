@@ -4,23 +4,33 @@
 
 ### 🚀 Navigation
 
-[MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript - write your content only once.
+[GOTO MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript - write your content only once.
 
-[GOTO README](https://github.com/123Matthias)
+[GOTO GitHub](https://github.com/123Matthias)
 
+---
 
-### 📬 Contact me
-
-GitHub Users can [CONTACT ME AT THIS GIT DISCUSSION](https://github.com/123Matthias/123Matthias/discussions/1) 
-
-Or send me an email at: matthias-github@gmx.at
+<h3>📬 Contact me</h3>
+<address>
+    Region: Tirol / Ötztal<br>
+    GitHub: <a href="https://github.com/123Matthias/123Matthias/discussions/1">GOTO Discussion</a> for GitHub Developers<br>
+    E-Mail: <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a>
+</address>
 
 ---
   
 # Hallo!
 
-**Skills:** Websites in html, css und JS (no cms), Java-Software, SEO ...  
-            Maschinenbau, 3D-CAD, AutoCAD ...
+### Skills
+- Websites in html, css und JS (no cms)
+- SEO ...  
+- Java-Software
+
+
+### other Skills
+- Maschinenbau
+- 3D-CAD
+- AutoCAD ...
 
 Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
 
@@ -54,8 +64,16 @@ Feedback willkommen!
 
 # Hello! <a id="english"></a>
 
-**Skills:** Websites in html, css and JS (no cms), Java software, SEO ...  
-            Mechanical engineering, 3D-CAD, AutoCAD ...
+### Skills
+- Websites using HTML, CSS, and JS (no CMS)
+- SEO  
+- Java software
+
+### Other Skills
+- Mechanical engineering
+- 3D CAD
+- AutoCAD
+
 
 The public repositories linked below - especially **Guttis** and **BackupTool** - are not pure hobby projects.
 
