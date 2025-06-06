@@ -12,7 +12,7 @@
 
 <h3>📬 Contact me</h3>
 <address>
-    Region: Tirol / Ötztal<br>
+    Region: Austria / Tirol / Ötztal<br>
     GitHub: <a href="https://github.com/123Matthias/123Matthias/discussions/1">GOTO Discussion</a> for GitHub Developers<br>
     E-Mail: <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a>
 </address>
