@@ -13,6 +13,10 @@ body {
   background-position: fixed;
 }
 
+h2, h3{
+  color: seagreen;
+}
+
 @media (prefers-color-scheme: dark){
   a{
     color: dodgerblue;
@@ -21,7 +25,6 @@ body {
     color: violet;
   }
 }
-
 
 .avatar-bg {
   max-width: 100%;

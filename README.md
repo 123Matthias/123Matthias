@@ -1,21 +1,15 @@
 [🇬🇧 English ▼](#english) below the german text
 
+[✉️ Contact me here](#contact)
+
 ---
 
-### 🚀 Navigation
+## 🚀 Navigation
 
 [GOTO MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript - write your content only once.
 
 [GOTO GitHub](https://github.com/123Matthias)
 
----
-
-<h3>📬 Contact me</h3>
-<address>
-    Region: Austria / Tirol / Ötztal<br>
-    GitHub: <a href="https://github.com/123Matthias/123Matthias/discussions/1">GOTO Discussion</a> for GitHub Developers<br>
-    E-Mail: <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a>
-</address>
 
 ---
   
@@ -103,4 +97,12 @@ Feedback welcome!
 - [Guttis Repository](https://github.com/123Matthias/Guttis)  
 - [BackupTool Repository](https://github.com/123Matthias/BackupTool)
 
+---
+
+<h2 id="contact">✉️ Contact me</h2>
+<address style="font-size: 1.5rem">
+    Region: Austria / Tirol / Ötztal<br>
+    GitHub: <a href="https://github.com/123Matthias/123Matthias/discussions/1">GOTO Discussion</a> for GitHub Developers<br>
+    E-Mail: <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a>
+</address>
 
