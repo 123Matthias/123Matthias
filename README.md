@@ -17,14 +17,16 @@
 
 ### Skills
 - Websites in html, css und JS (no cms)
-- SEO ...  
+- SEO
 - Java-Software
+- PHP, Python
+- Scripts in bspw: Powershell ...
 
 
 ### other Skills
 - Maschinenbau
 - 3D-CAD
-- AutoCAD ...
+- AutoCAD
 
 Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
 
@@ -60,8 +62,10 @@ Feedback willkommen!
 
 ### Skills
 - Websites using HTML, CSS, and JS (no CMS)
-- SEO  
+- SEO
 - Java software
+- PHP, Python
+- Scripts: for example Powershell ...
 
 ### Other Skills
 - Mechanical engineering
