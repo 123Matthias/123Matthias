@@ -1,13 +1,22 @@
 [🇬🇧 English ▼](#english) below the german text
 
+---
+
+### 🚀 Navigation
+
 [MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript - write your content only once.
 
 [GOTO README](https://github.com/123Matthias)
 
-GitHub Users can [CONTACT ME AT THIS GIT DISCUSSION](https://github.com/123Matthias/123Matthias/discussions/1)
+
+### 📬 Contact me
+
+GitHub Users can [CONTACT ME AT THIS GIT DISCUSSION](https://github.com/123Matthias/123Matthias/discussions/1) 
 
 Or send me an email at: matthias-github@gmx.at
 
+---
+  
 # Hallo!
 
 **Skills:** Websites in html, css und JS (no cms), Java-Software, SEO ...  
