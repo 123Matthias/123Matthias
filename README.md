@@ -36,7 +36,7 @@ Sie ist fertiggestellt und über Cloudflare erreichbar. SEO-Optimierung für Bin
 Ich habe weiters mit Entwicklung eines **Backup-Tools** begonnen. Der Projektfortschritt liegt aktuell bei etwa 60–70% der Merge- und Full-Backup-Funktionen.  
 Multithreading, dynamisches Speicher-Buffering und mehrere AES-Verschlüsselungsmethoden funktionieren im Run.
 Die GUI ist mit FXML umgesetzt, und Backups können minütlich, täglich oder zu einem bestimmten Datum geplant werden.  
-Die App kann mit IntelliJ und Maven gestartet und getestet werden.
+Die App kann mit IntelliJ und Maven getestet werden.
 
 ---
 
