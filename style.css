@@ -44,6 +44,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+#logoContainer {
+  position: fixed;          
+  top: 10px;                
+  right: 10px;             
+  z-index: 9999;           
+  height: 100px;           
+  width: auto;         
+  display: flex;         
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;    
+}
+
+#logoContainer picture,
+#logoContainer img {
+  height: 100%;           
+  width: auto;            
+  object-fit: contain;   
+  display: block;         
+  max-width: 100%;         
+  max-height: 100%;         
 }
 
 .header-text {
@@ -167,7 +191,7 @@ footer {
     display: flex;
     height: 200px;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin: 0;
   }
