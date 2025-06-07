@@ -1,21 +1,18 @@
-[🇬🇧 English ▼](#english) below the german text
+## 🚀 Navigation
+
+[GitHub WEBSITE](https://123matthias.github.io/123Matthias/)
+
+[GitHub Account](https://github.com/123Matthias)
 
 [✉️ Contact me here](#contact)
 
----
-
-## 🚀 Navigation
-
-[GOTO MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript - write your content only once.
-
-[GOTO GitHub](https://github.com/123Matthias)
-
+[🇬🇧 English ▼](#english) below the german text
 
 ---
-  
+
 # Hallo!
 
-### Skills
+## Skills
 - Websites in html, css und JS (no cms)
 - SEO
 - Java-Software
@@ -23,13 +20,23 @@
 - Scripts in bspw: Powershell ...
 
 
-### other Skills
+## Other Skills
 - Maschinenbau
 - 3D-CAD
 - AutoCAD
 
 Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
 
+## Projekte
+
+- **Guttis** – Statische Website (Bootstrap), gehostet via GitHub Pages + Cloudflare  
+- **BackupTool** – Java-Backup mit Multithreading, AES-Verschlüsselung & Zeitplanung
+
+Feedback willkommen!
+
+- [Guttis Repository](https://github.com/123Matthias/Guttis)  
+- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
+  
 ## Guttis  
 - Statische Website, fast 100% in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
@@ -45,35 +52,34 @@ Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **B
 - Testbar mit IntelliJ & Maven
 
 ---
+ <a id="english">🇬🇧</a>
 
-## Projekte
+# Hello!
 
-- **Guttis** – Statische Website (Bootstrap), gehostet via GitHub Pages + Cloudflare  
-- **BackupTool** – Java-Backup mit Multithreading, AES-Verschlüsselung & Zeitplanung
-
-Feedback willkommen!
-
-- [Guttis Repository](https://github.com/123Matthias/Guttis)  
-- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
-
----
-
-# Hello! <a id="english"></a>
-
-### Skills
+## Skills
 - Websites using HTML, CSS, and JS (no CMS)
 - SEO
 - Java software
 - PHP, Python
 - Scripts: for example Powershell ...
 
-### Other Skills
+## Other Skills
 - Mechanical engineering
 - 3D CAD
 - AutoCAD
 
 
 The public repositories linked below - especially **Guttis** and **BackupTool** - are not pure hobby projects.
+
+## Projects
+
+- **Guttis** – Static website (Bootstrap), hosted via GitHub Pages + Cloudflare  
+- **BackupTool** – Java backup with multithreading, AES encryption & scheduling
+
+Feedback welcome!
+
+- [Guttis Repository](https://github.com/123Matthias/Guttis)  
+- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
 
 ## Guttis  
 - Static website, almost 100% in HTML, CSS, JS  
@@ -91,22 +97,12 @@ The public repositories linked below - especially **Guttis** and **BackupTool** 
 
 ---
 
-## Projects
-
-- **Guttis** – Static website (Bootstrap), hosted via GitHub Pages + Cloudflare  
-- **BackupTool** – Java backup with multithreading, AES encryption & scheduling
-
-Feedback welcome!
-
-- [Guttis Repository](https://github.com/123Matthias/Guttis)  
-- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
-
----
-
-<h2 id="contact">✉️ Contact me</h2>
-<address style="font-size: 1.5rem">
-    Region: Austria / Tirol / Ötztal<br>
-    GitHub: <a href="https://github.com/123Matthias/123Matthias/discussions/1">GOTO Discussion</a> for GitHub Developers<br>
-    E-Mail: <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a>
+<h2 id="contact">✉️ Contact</h2>
+<address class="address">
+  Matthias Leiter<br>
+  Ötztal, Tirol, Austria<br>
+  <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a><br>
+  <a href="https://github.com/123Matthias/123Matthias/discussions/1" target="_blank" rel="noopener">GOTO GitHub Discussion</a> (for GitHub Developers)
 </address>
+
 
