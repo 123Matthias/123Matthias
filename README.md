@@ -1,53 +1,108 @@
-🇬🇧 below · 🇩🇪 weiter unten
+## 🚀 Navigation
 
-[MY WEBSITE](https://123matthias.github.io/123Matthias/) displays this README.md automatically inside a content container via JavaScript — write your content only once.
+[GitHub WEBSITE](https://123matthias.github.io/123Matthias/)
 
-[GOTO README](https://github.com/123Matthias)
+[GitHub Account](https://github.com/123Matthias)
 
-# Hi!
+[✉️ Contact me here](#contact)
 
-The pinned public repositories below — especially **Guttis** and **BackupTool** — are not just hobby projects.
-
-**Guttis** is a simple static website built with a little help of Bootstrap. It’s complete and deployed via Cloudflare. SEO optimazion is a basic feature of this website.
-
-I started working on **BackupTool**, a Java-based backup application. The project is currently around 60–70% finished regarding merge and full backup features.  
-It includes multithreading, dynamic memory buffering, and several AES encryption methods.  
-The GUI is built with FXML, and backups can be scheduled per minute, daily, or on a specific date.  
-You can test the GUI using IntelliJ and Maven.
-
----
-
-## Project Overview
-
-- **Guttis** – Static website (Bootstrap), deployed via GitHub Pages + Cloudflare  
-- **BackupTool** – Java backup tool with multithreading, AES encryption & scheduling
-
-Feel free to explore the repos and leave feedback!
+[🇬🇧 English ▼](#english) below the german text
 
 ---
 
 # Hallo!
 
-Die unten angepinnten, bzw. verlinkten öffentlichen Repositories — insbesondere **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
+## Skills
+- Websites in html, css und JS (no cms)
+- SEO
+- Java-Software
+- PHP, Python
+- Scripts in bspw: Powershell ...
 
-**Guttis** ist eine einfache statische Website die fast zu 100% native in html, css und JS umgesetzt wurde. Bootstrap wurde für ein paar keinigkeiten als Unterstützung verwendet. 
-Sie ist fertiggestellt und über Cloudflare erreichbar. SEO-Optimierung für Bing, DuckDuckGo, Google usw. sind ein Kernfeature.
 
-Ich habe weiters mit Entwicklung eines **Backup-Tools** begonnen. Der Projektfortschritt liegt aktuell bei etwa 60–70% der Merge- und Full-Backup-Funktionen.  
-Multithreading, dynamisches Speicher-Buffering und mehrere AES-Verschlüsselungsmethoden funktionieren im Run.
-Die GUI ist mit FXML umgesetzt, und Backups können minütlich, täglich oder zu einem bestimmten Datum geplant werden.  
-Die App kann mit IntelliJ und Maven gestartet und getestet werden.
+## Other Skills
+- Maschinenbau
+- 3D-CAD
+- AutoCAD
+
+Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
+
+## Projekte
+
+- **Guttis** – Statische Website (Bootstrap), gehostet via GitHub Pages + Cloudflare  
+- **BackupTool** – Java-Backup mit Multithreading, AES-Verschlüsselung & Zeitplanung
+
+Feedback willkommen!
+
+- [Guttis Repository](https://github.com/123Matthias/Guttis)  
+- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
+  
+## Guttis  
+- Statische Website, fast 100% in HTML, CSS, JS  
+- Bootstrap nur minimal zur Unterstützung  
+- Fertiggestellt, über Cloudflare erreichbar  
+- SEO-optimiert für Google, Bing, DuckDuckGo usw.
+
+## BackupTool  
+- Java-Backup-Programm, ca. 60–70% fertig (Merge- und Full-Backup)  
+- Multithreading & dynamisches Speicher-Buffering  
+- AES-Verschlüsselung (mehrere Methoden)  
+- GUI mit FXML  
+- Backup-Planung: minütlich, täglich, bestimmtes Datum  
+- Testbar mit IntelliJ & Maven
+
+---
+ <a id="english">🇬🇧</a>
+
+# Hello!
+
+## Skills
+- Websites using HTML, CSS, and JS (no CMS)
+- SEO
+- Java software
+- PHP, Python
+- Scripts: for example Powershell ...
+
+## Other Skills
+- Mechanical engineering
+- 3D CAD
+- AutoCAD
+
+
+The public repositories linked below - especially **Guttis** and **BackupTool** - are not pure hobby projects.
+
+## Projects
+
+- **Guttis** – Static website (Bootstrap), hosted via GitHub Pages + Cloudflare  
+- **BackupTool** – Java backup with multithreading, AES encryption & scheduling
+
+Feedback welcome!
+
+- [Guttis Repository](https://github.com/123Matthias/Guttis)  
+- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
+
+## Guttis  
+- Static website, almost 100% in HTML, CSS, JS  
+- Bootstrap only minimal for support  
+- Completed, accessible via Cloudflare  
+- SEO-optimized for Google, Bing, DuckDuckGo etc.
+
+## BackupTool  
+- Java backup program, approx. 60-70% complete (merge and full backup)  
+- Multithreading & dynamic memory buffering  
+- AES encryption (several methods)  
+- GUI with FXML  
+- Backup scheduling: every minute, daily, specific date  
+- Testable with IntelliJ & Maven
 
 ---
 
-## Projektübersicht
+<h2 id="contact">✉️ Contact</h2>
+<address class="address">
+  Matthias Leiter<br>
+  Ötztal, Tirol, Austria<br>
+  <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a><br>
+  <a href="https://github.com/123Matthias/123Matthias/discussions/1" target="_blank" rel="noopener">GOTO GitHub Discussion</a> (for GitHub Developers)
+</address>
 
-- **Guttis** – Statische Website (Bootstrap), bereitgestellt über GitHub Pages + Cloudflare  
-- **BackupTool** – Java-Backup-Tool mit Multithreading, AES-Verschlüsselung & Zeitplanung
 
-Schau dir die Repositories gern an und hinterlasse Feedback!
-
-
-- https://github.com/123Matthias/Guttis
-  
-- https://github.com/123Matthias/BackupTool

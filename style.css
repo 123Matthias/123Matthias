@@ -11,8 +11,21 @@ body {
   background-attachment: fixed;
   margin: 0;
   background-position: fixed;
+  line-height: 1.5;
 }
 
+a {
+  font-size: 1.2rem;
+}
+
+.address, address *{
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+h1, h2, h3{
+  color: seagreen;
+}
 
 .avatar-bg {
   max-width: 100%;
@@ -102,7 +115,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 80px 0 80px 0;
-  color: dodgerblue;
+  color: seagreen;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 }
@@ -127,6 +140,10 @@ footer {
     color: #111 !important;
   }
 
+  .header-text{
+    color: #111;
+  }
+
   .container {
     background-color: rgba(240, 245, 255, 0.7) !important;
     box-shadow: 0 0 20px black !important;
@@ -137,6 +154,17 @@ footer {
   body {
     background-color: #121212 !important;
     color: #eee !important;
+  }
+
+    .header-text{
+    color: #eee;
+  }
+
+    a{
+    color: dodgerblue;
+  }
+  a:visited{
+    color: violet;
   }
 
   .container {
