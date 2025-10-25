@@ -31,6 +31,7 @@ Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **B
 
 - **Guttis** – Statische Website (Bootstrap), gehostet via GitHub Pages + Cloudflare  
 - **BackupTool** – Java-Backup mit Multithreading, AES-Verschlüsselung & Zeitplanung
+- **storYoga** - Website mit Anmeldeformular und Backend in Apache und PostgreSql. Quellcode in php und MVC pattern. REST API. no cms. no Framework. 
 
 Feedback willkommen!
 
@@ -50,6 +51,14 @@ Feedback willkommen!
 - GUI mit FXML  
 - Backup-Planung: minütlich, täglich, bestimmtes Datum  
 - Testbar mit IntelliJ & Maven
+
+## storYoga
+- **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
+- **Sicherheit:** Admin Area mit MFA-Login, Schutz vor SQL Injection, Session-Fixation und CSRF, sichere Header und Session-ID-Regeneration ...
+- **Backend & API:** REST API, Apache, PostgreSQL
+- **Architektur & Tech:** Eigenes MVC-Pattern, kein CMS oder Framework, Backend in PHP, Frontend in JS, HTML und CSS (Bootstrap 5)
+
+Website erreichbar unter https://storyoga.at
 
 ---
  <a id="english">🇬🇧</a>
@@ -75,6 +84,7 @@ The public repositories linked below - especially **Guttis** and **BackupTool** 
 
 - **Guttis** – Static website (Bootstrap), hosted via GitHub Pages + Cloudflare  
 - **BackupTool** – Java backup with multithreading, AES encryption & scheduling
+- **storYoga** - Website with registration form and admin area. Build from scratch no cms and no framework used. 
 
 Feedback welcome!
 
@@ -94,6 +104,14 @@ Feedback welcome!
 - GUI with FXML  
 - Backup scheduling: every minute, daily, specific date  
 - Testable with IntelliJ & Maven
+
+## storYoga
+- **Server & Infrastructure:** Linux VPS, Cloudflare Reverse Proxy with Turnstile
+- **Security:** Admin area with MFA login, protection against SQL Injection, Session Fixation and CSRF, secure headers and session ID regeneration …
+- **Backend & API:** REST API, Apache, PostgreSQL
+- **Architecture & Tech:** Custom MVC pattern, no CMS or framework, backend in PHP, frontend in JS, HTML, and CSS (Bootstrap 5)
+
+Website available at https://storyoga.at
 
 ---
 
