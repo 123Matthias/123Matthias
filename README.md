@@ -9,13 +9,15 @@
 [🇬🇧 English ▼](#english)
 
 # Hallo!
-Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen die ich praktisch umsetzen kann. Anschliessend sind ein paar Beispielprojekte gelistet, die umgesetzt wurden.
+Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschliessend sind ein paar Beispielprojekte gelistet, die umgesetzt wurden.
 
 ## Skills
-- Websites in html, css und JS (no cms)
-- SEO
+- Websites in html, css und JS aber auch mit Frameworks
+- SEO mit Google Search Console oder Bing Webmaster Tool
 - Java-Software
 - PHP, Python
+- MacOSX, Linux, Windows
+- Netzwerktechnik
 - Scripts in bspw: Powershell ...
 
 
@@ -70,9 +72,11 @@ Here’s a brief overview of my core skills in programming, software development
 
 ## Skills
 - Websites using HTML, CSS, and JS (no CMS)
-- SEO
+- SEO Google Search Console and Bing Webmaster Tool
 - Java software
 - PHP, Python
+- MacOSX, Linux, Windows
+- Networking
 - Scripts: for example Powershell ...
 
 ## Other Skills
