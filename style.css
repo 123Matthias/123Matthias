@@ -109,15 +109,10 @@ h1 {
   color: var(--header1-color);
   background-color: var(--link-bg);
   border: 1px solid var(--text-color);
-  padding: 20px;
+  padding: 20px 20px 20px 30px;
   border-radius: 20px;
   font-size: 2.8rem;
   font-style: italic;
-}
-
-h1::first-letter {
-  font-size: 4rem; /* größer als der Rest */
-  font-weight: bold; /* optional */
 }
 
 #content h1:not(:first-of-type) {
@@ -371,14 +366,8 @@ footer {
 
   h1{
     font-size: 2rem;
-    padding: 10px 10px 10px 20px;
+    padding: 15px 15px 15px 30px;
   }
-
-  h1::first-letter {
-  font-size: 3rem;
-}
-
-
 
 }
 
@@ -390,12 +379,8 @@ footer {
 
     h1{
     font-size: 1.66rem;
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
   }
-
-  h1::first-letter {
-  font-size: 2rem;
-}
 
   .header-section {
     flex-direction: column-reverse;
