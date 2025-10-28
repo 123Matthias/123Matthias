@@ -239,8 +239,9 @@ h2 {
 }
 
 .content {
+  box-sizing: border-box;
   width: 100%;
-  padding: 20px;
+  padding: 50px;
 }
 
 ul {
@@ -358,9 +359,26 @@ footer {
     margin: 66vh auto 0 auto;
   }
 
+    .content {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+  }
+
   ul {
     padding-left: 20px;
   }
+
+  h1{
+    font-size: 2rem;
+    padding: 10px 10px 10px 20px;
+  }
+
+  h1::first-letter {
+  font-size: 3rem;
+}
+
+
 
 }
 
@@ -369,6 +387,15 @@ footer {
   body {
     margin: 0;
   }
+
+    h1{
+    font-size: 1.66rem;
+    padding: 10px;
+  }
+
+  h1::first-letter {
+  font-size: 2rem;
+}
 
   .header-section {
     flex-direction: column-reverse;
@@ -410,7 +437,7 @@ footer {
   .content {
     box-sizing: border-box;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
   }
 
   ul {
