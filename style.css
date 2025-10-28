@@ -53,26 +53,22 @@ body {
 
 img {
   float: right;
-  height: 100px;
+  height: 60px;
   border-radius: 20px;
   padding: 5px;
 }
 
 
-/* Container für Navigation – sorgt für horizontales Layout und Wrap */
 #content h1~p {
   display: inline-block;
-  width: max-content;
   margin: 0;
 }
 
 #content h1~p a {
   display: inline-flex;
-  /* Schönes Button-Layout für Text + Icons */
   position: relative;
   transition: transform 0.3s ease, color 0.3s ease;
   align-items: center;
-  /* Vertikal zentrieren */
   justify-content: center;
   padding: 0.4rem 0.9rem;
   margin: 0.3rem;
@@ -83,10 +79,8 @@ img {
   text-decoration: none;
   font-weight: 500;
   white-space: nowrap;
-  /* Kein unschönes Zeilenbrechen im Button */
 }
 
-/* Hover-Effekt */
 #content h1~p a:hover {
   background: var(--link-hover-bg);
   border-color: var(--link-hover-border);
@@ -157,6 +151,9 @@ h2 {
   position: fixed;
   z-index: 0;
   top: 0;
+  left: 0%;
+
+ 
 }
 
 .intro,
@@ -168,9 +165,9 @@ h2 {
   text-align: center;
 }
 
-    .intro{
-    margin-left: 50px;
-  }
+.intro {
+  margin-left: 50px;
+}
 
 .intro h1 {
   border: 1px solid var(--link-color);
@@ -202,13 +199,14 @@ h2 {
 
 .header-text {
   font-size: 4.5rem;
-  
+
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  max-width: 1500px;
   padding: 30px;
   border: 1px solid;
   border-radius: 20px;
@@ -221,6 +219,14 @@ h2 {
   z-index: 10;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+}
+
+@media (min-width: 1300px){
+
+.container {
+  padding: 80px;
+}
+
 }
 
 .content {

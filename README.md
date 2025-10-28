@@ -9,6 +9,7 @@
 [🇬🇧 English ▼](#english)
 
 # Hallo!
+Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen die ich praktisch umsetzen kann. Anschliessend sind ein paar Beispielprojekte gelistet, die umgesetzt wurden.
 
 ## Skills
 - Websites in html, css und JS (no cms)
@@ -28,9 +29,9 @@
 
 ---
 
-## Guttis ![Guttis Logo](projectImages/logoGuttis.png)
+## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png)
 
-- Statische Website, fast 100% in HTML, CSS, JS  
+- Statische Website in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
 - Fertiggestellt, über Cloudflare erreichbar  
 - SEO-optimiert für Google, Bing, DuckDuckGo usw.
@@ -39,8 +40,8 @@
 
 ---
 
-## BackupTool ![Backup Tool](projectImages/logoBackupTool.png)
-- Java-Backup-Programm, ca. 60–70% fertig (Merge- und Full-Backup)  
+## BackupTool &nbsp;  &nbsp; ![Backup Tool](projectImages/logoBackupTool.png)
+- Java-Backup-Programm, in Bearbeitung Stand ca. 60% (Merge- und Full-Backup)  
 - Multithreading & dynamisches Speicher-Buffering  
 - AES-Verschlüsselung (mehrere Methoden)  
 - GUI mit FXML  
@@ -51,7 +52,7 @@
   
 ---
 
-## storYoga ![storYoga Tool](projectImages/logoStoryoga.png)
+## storYoga &nbsp;  &nbsp; ![storYoga Tool](projectImages/logoStoryoga.png)
 - **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
 - **Sicherheit:** Admin Area mit MFA-Login, Schutz vor SQL Injection, Session-Fixation und CSRF, sichere Header und Session-ID-Regeneration ...
 - **Backend & API:** REST API, Apache, PostgreSQL
@@ -64,6 +65,8 @@ Website erreichbar unter https://storyoga.at
  <div id="english">🇬🇧</div>
 
 # Hello!
+
+Here’s a brief overview of my core skills in programming, software development, and technical applications, as well as other practical abilities. Below, you can find some example projects I have completed or i currently work on.
 
 ## Skills
 - Websites using HTML, CSS, and JS (no CMS)
@@ -81,8 +84,8 @@ Website erreichbar unter https://storyoga.at
 
 ---
 
-## Guttis ![Guttis Logo](projectImages/logoGuttis.png) 
-- Static website, almost 100% in HTML, CSS, JS  
+## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png) 
+- Static website in HTML, CSS, JS  
 - Bootstrap only minimal for support  
 - Completed, accessible via Cloudflare  
 - SEO-optimized for Google, Bing, DuckDuckGo etc.
@@ -91,8 +94,8 @@ Website erreichbar unter https://storyoga.at
 
 ---
 
-## BackupTool ![Backup Tool](projectImages/logoBackupTool.png)
-- Java backup program, approx. 60-70% complete (merge and full backup)  
+## BackupTool &nbsp;  &nbsp; ![Backup Tool](projectImages/logoBackupTool.png)
+- Java backup program, in development approx. 60-70% complete (merge and full backup)  
 - Multithreading & dynamic memory buffering  
 - AES encryption (several methods)  
 - GUI with FXML  
@@ -103,7 +106,7 @@ Website erreichbar unter https://storyoga.at
 
 ---
 
-## storYoga ![storYoga Tool](projectImages/logoStoryoga.png)
+## storYoga &nbsp;  &nbsp; ![storYoga Tool](projectImages/logoStoryoga.png)
 - **Server & Infrastructure:** Linux VPS, Cloudflare Reverse Proxy with Turnstile
 - **Security:** Admin area with MFA login, protection against SQL Injection, Session Fixation and CSRF, secure headers and session ID regeneration …
 - **Backend & API:** REST API, Apache, PostgreSQL
