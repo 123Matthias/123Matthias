@@ -1,4 +1,4 @@
-## 🚀 Navigation
+# 🚀 Navigation
 
 [GitHub WEBSITE](https://123matthias.github.io/123Matthias/)
 
@@ -6,9 +6,7 @@
 
 [✉️ Contact me here](#contact)
 
-[🇬🇧 English ▼](#english) below the german text
-
----
+[🇬🇧 English ▼](#english)
 
 # Hallo!
 
@@ -25,24 +23,20 @@
 - 3D-CAD
 - AutoCAD
 
-Die unten verlinkten öffentlichen Repositories — besonders **Guttis** und **BackupTool** — sind keine reinen Hobbyprojekte.
 
-## Projekte
+# Projekte
 
-- **Guttis** – Statische Website (Bootstrap), gehostet via GitHub Pages + Cloudflare  
-- **BackupTool** – Java-Backup mit Multithreading, AES-Verschlüsselung & Zeitplanung
-- **storYoga** - Website mit Anmeldeformular und Backend in Apache und PostgreSql. Quellcode in php und MVC pattern. REST API. no cms. no Framework. 
+---
 
-Feedback willkommen!
-
-- [Guttis Repository](https://github.com/123Matthias/Guttis)  
-- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
-  
 ## Guttis  
 - Statische Website, fast 100% in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
 - Fertiggestellt, über Cloudflare erreichbar  
 - SEO-optimiert für Google, Bing, DuckDuckGo usw.
+
+[Guttis Repository](https://github.com/123Matthias/Guttis)  
+
+---
 
 ## BackupTool  
 - Java-Backup-Programm, ca. 60–70% fertig (Merge- und Full-Backup)  
@@ -51,6 +45,10 @@ Feedback willkommen!
 - GUI mit FXML  
 - Backup-Planung: minütlich, täglich, bestimmtes Datum  
 - Testbar mit IntelliJ & Maven
+
+[BackupTool Repository](https://github.com/123Matthias/BackupTool)
+  
+---
 
 ## storYoga
 - **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
@@ -61,7 +59,8 @@ Feedback willkommen!
 Website erreichbar unter https://storyoga.at
 
 ---
- <a id="english">🇬🇧</a>
+
+ <div id="english">🇬🇧</div>
 
 # Hello!
 
@@ -77,25 +76,19 @@ Website erreichbar unter https://storyoga.at
 - 3D CAD
 - AutoCAD
 
+# Projects
 
-The public repositories linked below - especially **Guttis** and **BackupTool** - are not pure hobby projects.
-
-## Projects
-
-- **Guttis** – Static website (Bootstrap), hosted via GitHub Pages + Cloudflare  
-- **BackupTool** – Java backup with multithreading, AES encryption & scheduling
-- **storYoga** - Website with registration form and admin area. Build from scratch no cms and no framework used. 
-
-Feedback welcome!
-
-- [Guttis Repository](https://github.com/123Matthias/Guttis)  
-- [BackupTool Repository](https://github.com/123Matthias/BackupTool)
+---
 
 ## Guttis  
 - Static website, almost 100% in HTML, CSS, JS  
 - Bootstrap only minimal for support  
 - Completed, accessible via Cloudflare  
 - SEO-optimized for Google, Bing, DuckDuckGo etc.
+
+[Guttis Repository](https://github.com/123Matthias/Guttis)  
+
+---
 
 ## BackupTool  
 - Java backup program, approx. 60-70% complete (merge and full backup)  
@@ -104,6 +97,10 @@ Feedback welcome!
 - GUI with FXML  
 - Backup scheduling: every minute, daily, specific date  
 - Testable with IntelliJ & Maven
+
+  [BackupTool Repository](https://github.com/123Matthias/BackupTool)
+
+---
 
 ## storYoga
 - **Server & Infrastructure:** Linux VPS, Cloudflare Reverse Proxy with Turnstile

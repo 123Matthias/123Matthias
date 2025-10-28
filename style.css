@@ -1,3 +1,33 @@
+:root {
+  --header1-color: #5f0093;   /* frisches Grün (statt seagreen) */
+  --header-color: #008693;   /* frisches Grün (statt seagreen) */
+  --link-color: #1e90ff;     /* kräftiges Blau (statt #0366d6) */
+  --link-bg: rgba(30, 144, 255, 0.1);   /* leichter blauer Hintergrund */
+  --link-border: rgba(30, 144, 255, 0.3); /* Border leicht transparent */
+  --link-hover-bg: rgba(30, 144, 255, 0.2); /* Hover Background */
+  --link-hover-border: rgba(30, 144, 255, 0.6); /* Hover Border */
+  --link-hover-color: #0f4c81; /* Hover Textfarbe */
+
+  --shadow-color: black;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      --header1-color: #ed4cff;   /* frisches Grün (statt seagreen) */
+    --header-color: #41e9ff;
+    --link-color: #9fcfff;
+    --link-bg: rgba(102, 178, 255, 0.1);
+    --link-border: rgb(255, 255, 255);
+    --link-hover-bg: rgba(102, 178, 255, 0.25);
+    --link-hover-border: rgb(255, 255, 255);
+    --link-hover-color: #bfe0fe;
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --shadow-color: white;
+  }
+}
+
 body {
   background-color: #f9f9f9;
   background-image:
@@ -12,7 +42,53 @@ body {
   margin: 0;
   background-position: fixed;
   line-height: 1.5;
+  font-size: larger;
 }
+
+@media (max-width: 786px) {
+  body {
+    font-size: medium;
+  }
+}
+
+/* Container für Navigation – sorgt für horizontales Layout und Wrap */
+#content h1 ~ p {
+  display: inline-block;    
+  width: max-content; 
+  margin: 0;                     
+}
+
+#content h1 ~ p a {
+  display: inline-flex;          /* Schönes Button-Layout für Text + Icons */
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+  align-items: center;           /* Vertikal zentrieren */
+  justify-content: center;
+  padding: 0.4rem 0.9rem;
+  margin: 0.3rem;
+  color: var(--link-color);
+  background: var(--link-bg);
+  border: 1px solid var(--link-border);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;           /* Kein unschönes Zeilenbrechen im Button */
+}
+
+/* Hover-Effekt */
+#content h1 ~ p a:hover {
+  background: var(--link-hover-bg);
+  border-color: var(--link-hover-border);
+  color: var(--link-hover-color);
+  
+}
+
+@media (min-width:1200px){
+  #content h1 ~ p a:hover {
+transform: translateY(-6px) scale(1.01);
+  }
+}
+
 
 a {
   font-size: 1.2rem;
@@ -23,9 +99,28 @@ a {
   line-height: 1.4;
 }
 
-h1, h2, h3{
-  color: seagreen;
+h1{
+  color: var(--header1-color);
+  background-color: var(--link-bg);
+  padding: 20px;
+  border-radius: 20px;
 }
+
+#content h1:not(:first-of-type) {
+  margin-top: 100px;
+}
+
+
+h2, h3{
+  color: var(--header-color);
+}
+
+h2{
+  border-left: 5px solid var(--header-color);
+  padding-left: 10px;
+
+}
+
 
 .avatar-bg {
   max-width: 100%;
@@ -60,6 +155,11 @@ h1, h2, h3{
   text-align: center;
 }
 
+.intro h1{
+  border: 1px solid var(--link-color);
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
 #logoContainer {
   position: fixed;          
   top: 10px;                
@@ -88,8 +188,9 @@ h1, h2, h3{
 }
 
 .container {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   padding: 30px;
   border: 1px solid;
   border-radius: 20px;
@@ -108,6 +209,29 @@ h1, h2, h3{
   width: 100%;
   padding: 20px;
 }
+
+ul {
+  list-style: none;   /* Standard-Punkte entfernen */
+}
+
+ul li {
+  position: relative;
+  padding-left: 1.5em;   /* Platz für Bullet */
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+ul li::before {
+  content: "✖";          /* X-Symbol */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--link-color, #1e90ff); /* Farbe optional über Variable */
+  font-size: 1em;
+  line-height: 1;
+}
+
+
 
 
 footer {
@@ -185,13 +309,17 @@ footer {
   }
 
   .container {
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 90%;
+    margin: 66vh auto 0 auto;
+  }
+
+    ul{
+    padding-left: 20px;
   }
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   body {
     margin: 0;
@@ -234,19 +362,19 @@ footer {
     padding: 20px;
   }
 
+  ul{
+    padding-left: 10px;
+  }
+
   .header-text {
     font-size: 2rem !important;
     text-align: center;
   }
 
   .container {
-    margin-top: 550px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 66vh auto 0 auto;
     padding: 0;
-    width: 100%;
-    border: none;
-    box-shadow: none;
+    width: 93%;
   }
 
   footer {
