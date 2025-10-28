@@ -1,20 +1,19 @@
 :root {
-  --header1-color: #5f0093;   /* frisches Grün (statt seagreen) */
-  --header-color: #008693;   /* frisches Grün (statt seagreen) */
-  --link-color: #1e90ff;     /* kräftiges Blau (statt #0366d6) */
-  --link-bg: rgba(30, 144, 255, 0.1);   /* leichter blauer Hintergrund */
-  --link-border: rgba(30, 144, 255, 0.3); /* Border leicht transparent */
-  --link-hover-bg: rgba(30, 144, 255, 0.2); /* Hover Background */
-  --link-hover-border: rgba(30, 144, 255, 0.6); /* Hover Border */
-  --link-hover-color: #0f4c81; /* Hover Textfarbe */
-
+  --header1-color: #5f0093;
+  --header-color: #008693;
+  --link-color: #1e90ff;
+  --link-bg: rgba(30, 144, 255, 0.1);
+  --link-border: rgba(30, 144, 255, 0.3);
+  --link-hover-bg: rgba(30, 144, 255, 0.2);
+  --link-hover-border: rgba(30, 144, 255, 0.6);
+  --link-hover-color: #0f4c81;
   --shadow-color: black;
 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-      --header1-color: #ed4cff;   /* frisches Grün (statt seagreen) */
+    --header1-color: #ed4cff;
     --header-color: #41e9ff;
     --link-color: #9fcfff;
     --link-bg: rgba(102, 178, 255, 0.1);
@@ -60,19 +59,20 @@ img {
 }
 
 
-
 /* Container für Navigation – sorgt für horizontales Layout und Wrap */
-#content h1 ~ p {
-  display: inline-block;    
-  width: max-content; 
-  margin: 0;                     
+#content h1~p {
+  display: inline-block;
+  width: max-content;
+  margin: 0;
 }
 
-#content h1 ~ p a {
-  display: inline-flex;          /* Schönes Button-Layout für Text + Icons */
+#content h1~p a {
+  display: inline-flex;
+  /* Schönes Button-Layout für Text + Icons */
   position: relative;
   transition: transform 0.3s ease, color 0.3s ease;
-  align-items: center;           /* Vertikal zentrieren */
+  align-items: center;
+  /* Vertikal zentrieren */
   justify-content: center;
   padding: 0.4rem 0.9rem;
   margin: 0.3rem;
@@ -82,20 +82,21 @@ img {
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
-  white-space: nowrap;           /* Kein unschönes Zeilenbrechen im Button */
+  white-space: nowrap;
+  /* Kein unschönes Zeilenbrechen im Button */
 }
 
 /* Hover-Effekt */
-#content h1 ~ p a:hover {
+#content h1~p a:hover {
   background: var(--link-hover-bg);
   border-color: var(--link-hover-border);
   color: var(--link-hover-color);
-  
+
 }
 
-@media (min-width:1200px){
-  #content h1 ~ p a:hover {
-transform: translateY(-6px) scale(1.01);
+@media (min-width:1200px) {
+  #content h1~p a:hover {
+    transform: translateY(-6px) scale(1.01);
   }
 }
 
@@ -104,12 +105,13 @@ a {
   font-size: 1.2rem;
 }
 
-.address, address *{
+.address,
+address * {
   font-size: 1.3rem;
   line-height: 1.4;
 }
 
-h1{
+h1 {
   color: var(--header1-color);
   background-color: var(--link-bg);
   padding: 20px;
@@ -121,11 +123,12 @@ h1{
 }
 
 
-h2, h3{
+h2,
+h3 {
   color: var(--header-color);
 }
 
-h2{
+h2 {
   border-left: 5px solid var(--header-color);
   padding-left: 10px;
 
@@ -165,36 +168,41 @@ h2{
   text-align: center;
 }
 
-.intro h1{
+    .intro{
+    margin-left: 50px;
+  }
+
+.intro h1 {
   border: 1px solid var(--link-color);
-    box-shadow: 0 0 20px var(--shadow-color);
+  box-shadow: 0 0 20px var(--shadow-color);
 }
 
 #logoContainer {
-  position: fixed;          
-  top: 10px;                
-  right: 10px;             
-  z-index: 9999;           
-  height: 100px;           
-  width: auto;         
-  display: flex;         
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  height: 100px;
+  width: auto;
+  display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none;    
+  pointer-events: none;
 }
 
 #logoContainer picture,
 #logoContainer img {
-  height: 100%;           
-  width: auto;            
-  object-fit: contain;   
-  display: block;         
-  max-width: 100%;         
-  max-height: 100%;         
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .header-text {
-  font-size: 5rem;
+  font-size: 4.5rem;
+  
 }
 
 .container {
@@ -221,22 +229,26 @@ h2{
 }
 
 ul {
-  list-style: none;   /* Standard-Punkte entfernen */
+  list-style: none;
+  /* Standard-Punkte entfernen */
 }
 
 ul li {
   position: relative;
-  padding-left: 1.5em;   /* Platz für Bullet */
+  padding-left: 1.5em;
+  /* Platz für Bullet */
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
 ul li::before {
-  content: "✖";          /* X-Symbol */
+  content: "✖";
+  /* X-Symbol */
   position: absolute;
   left: 0;
   top: 0;
-  color: var(--link-color, #1e90ff); /* Farbe optional über Variable */
+  color: var(--link-color, #1e90ff);
+  /* Farbe optional über Variable */
   font-size: 1em;
   line-height: 1;
 }
@@ -274,7 +286,7 @@ footer {
     color: #111 !important;
   }
 
-  .header-text{
+  .header-text {
     color: #111;
   }
 
@@ -290,14 +302,15 @@ footer {
     color: #eee !important;
   }
 
-    .header-text{
+  .header-text {
     color: #eee;
   }
 
-    a{
+  a {
     color: dodgerblue;
   }
-  a:visited{
+
+  a:visited {
     color: violet;
   }
 
@@ -307,9 +320,9 @@ footer {
   }
 
   h2 img {
-     
+
     background-color: white;
-  
+
   }
 
 }
@@ -330,7 +343,7 @@ footer {
     margin: 66vh auto 0 auto;
   }
 
-    ul{
+  ul {
     padding-left: 20px;
   }
 
@@ -349,9 +362,10 @@ footer {
   }
 
   img {
-  height: 50px;
-  border-radius: 10px;
-}
+    height: 50px;
+    border-radius: 10px;
+  }
+
 
   .image-wrapper {
     height: 300px;
@@ -384,7 +398,7 @@ footer {
     padding: 20px;
   }
 
-  ul{
+  ul {
     padding-left: 10px;
   }
 
