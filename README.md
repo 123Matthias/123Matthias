@@ -28,7 +28,8 @@
 
 ---
 
-## Guttis  
+## Guttis ![Guttis Logo](projectImages/logoGuttis.png)
+
 - Statische Website, fast 100% in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
 - Fertiggestellt, über Cloudflare erreichbar  
@@ -38,7 +39,7 @@
 
 ---
 
-## BackupTool  
+## BackupTool ![Backup Tool](projectImages/logoBackupTool.png)
 - Java-Backup-Programm, ca. 60–70% fertig (Merge- und Full-Backup)  
 - Multithreading & dynamisches Speicher-Buffering  
 - AES-Verschlüsselung (mehrere Methoden)  
@@ -50,7 +51,7 @@
   
 ---
 
-## storYoga
+## storYoga ![storYoga Tool](projectImages/logoStoryoga.png)
 - **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
 - **Sicherheit:** Admin Area mit MFA-Login, Schutz vor SQL Injection, Session-Fixation und CSRF, sichere Header und Session-ID-Regeneration ...
 - **Backend & API:** REST API, Apache, PostgreSQL
@@ -80,17 +81,17 @@ Website erreichbar unter https://storyoga.at
 
 ---
 
-## Guttis  
+## Guttis ![Guttis Logo](projectImages/logoGuttis.png) 
 - Static website, almost 100% in HTML, CSS, JS  
 - Bootstrap only minimal for support  
 - Completed, accessible via Cloudflare  
 - SEO-optimized for Google, Bing, DuckDuckGo etc.
-
+  
 [Guttis Repository](https://github.com/123Matthias/Guttis)  
 
 ---
 
-## BackupTool  
+## BackupTool ![Backup Tool](projectImages/logoBackupTool.png)
 - Java backup program, approx. 60-70% complete (merge and full backup)  
 - Multithreading & dynamic memory buffering  
 - AES encryption (several methods)  
@@ -102,7 +103,7 @@ Website erreichbar unter https://storyoga.at
 
 ---
 
-## storYoga
+## storYoga ![storYoga Tool](projectImages/logoStoryoga.png)
 - **Server & Infrastructure:** Linux VPS, Cloudflare Reverse Proxy with Turnstile
 - **Security:** Admin area with MFA login, protection against SQL Injection, Session Fixation and CSRF, secure headers and session ID regeneration …
 - **Backend & API:** REST API, Apache, PostgreSQL
