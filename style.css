@@ -157,7 +157,7 @@ h2 {
   top: 0;
   left: 0%;
 
- 
+
 }
 
 .intro,
@@ -225,11 +225,11 @@ h2 {
   -webkit-backdrop-filter: blur(15px);
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1300px) {
 
-.container {
-  padding: 80px;
-}
+  .container {
+    padding: 80px;
+  }
 
 }
 
@@ -354,7 +354,7 @@ footer {
     margin: 66vh auto 0 auto;
   }
 
-    .content {
+  .content {
     box-sizing: border-box;
     width: 100%;
     padding: 20px;
@@ -364,7 +364,7 @@ footer {
     padding-left: 20px;
   }
 
-  h1{
+  h1 {
     font-size: 2rem;
     padding: 15px 15px 15px 30px;
   }
@@ -377,10 +377,11 @@ footer {
     margin: 0;
   }
 
-    h1{
+  h1:not(:first-of-type) {
     font-size: 1.66rem;
     padding: 10px 10px 10px 30px;
   }
+
 
   .header-section {
     flex-direction: column-reverse;
