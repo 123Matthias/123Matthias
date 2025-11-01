@@ -9,10 +9,10 @@
 [🇬🇧 English ▼](#english)
 
 # Hallo!
-Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschliessend sind ein paar Beispielprojekte gelistet, die umgesetzt wurden.
+Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschliessend sind ein paar Beispielprojekte gelistet.
 
 ## Skills
-- Websites in html, css und JS aber auch mit Frameworks
+- Websites in html, css und JS aber auch Frameworks können erlernt und verwendet werden (Angular etc.)
 - SEO mit Google Search Console oder Bing Webmaster Tool
 - Java-Software
 - PHP, Python
@@ -20,12 +20,10 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - Netzwerktechnik
 - Scripts in bspw: Powershell ...
 
-
 ## Other Skills
-- Maschinenbau
+- Maschinenbau, Stahlbau
 - 3D-CAD
 - AutoCAD
-
 
 # Projekte
 
