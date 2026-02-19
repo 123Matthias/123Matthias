@@ -6,7 +6,6 @@
 
 [✉️ Contact me here](#contact)
 
-[🇬🇧 English ▼](#english)
 
 # Hallo!
 Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschließend sind ein paar Beispielprojekte gelistet.
@@ -27,6 +26,16 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - AutoCAD
 
 # Projekte
+
+---
+
+## AutoCad Library
+- Werkzeugpaletten
+- dynamische Blöcke
+- AutoCAD, AutoCAD LT
+- Installationsvideos
+[Website AutoCAD Library](https://123matthias.github.io/ACAD-Library)
+[AutoCAD Repository](https://github.com/123Matthias/ACAD-Library)  
 
 ---
 
@@ -60,72 +69,6 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - **Architektur & Tech:** Eigenes MVC-Pattern, kein CMS oder Framework, Backend in PHP, Frontend in JS, HTML und CSS (Bootstrap 5)
 
 Website erreichbar unter https://storyoga.at
-
----
-
- <div id="english">🇬🇧</div>
-
-# Hello!
-
-Here’s a brief overview of my core skills in programming, software development, and technical applications, as well as other practical abilities. Below, you can find some example projects I have completed or i currently work on.
-
-## Skills
-- Websites using HTML, CSS, and JS (no CMS)
-- SEO Google Search Console and Bing Webmaster Tool
-- Java software
-- PHP, Python
-- MacOSX, Linux, Windows
-- Networking
-- Scripts: for example Powershell ...
-
-## Other Skills
-- Mechanical engineering
-- 3D CAD
-- AutoCAD
-
-# Projects
-
----
-
-## AutoCad Library
-- Werkzeugpaletten
-- dynamische Blöcke
-- AutoCAD, AutoCAD LT
-- Installationsvideos
-[Website AutoCAD Library](https://123matthias.github.io/ACAD-Library)
-[AutoCAD Repository](https://github.com/123Matthias/ACAD-Library)  
-
----
-
-## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png) 
-- Static website in HTML, CSS, JS  
-- Bootstrap only minimal for support  
-- Completed, accessible via Cloudflare  
-- SEO-optimized for Google, Bing, DuckDuckGo etc.
-  
-[Guttis Repository](https://github.com/123Matthias/Guttis)  
-
----
-
-## BackupTool &nbsp;  &nbsp; ![Backup Tool](projectImages/logoBackupTool.png)
-- Java backup program, in development approx. 60-70% complete (merge and full backup)  
-- Multithreading & dynamic memory buffering  
-- AES encryption (several methods)  
-- GUI with FXML  
-- Backup scheduling: every minute, daily, specific date  
-- Testable with IntelliJ & Maven
-  
-[BackupTool Repository](https://github.com/123Matthias/BackupTool)
-
----
-
-## storYoga &nbsp;  &nbsp; ![storYoga Tool](projectImages/logoStoryoga.png)
-- **Server & Infrastructure:** Linux VPS, Cloudflare Reverse Proxy with Turnstile
-- **Security:** Admin area with MFA login, protection against SQL Injection, Session Fixation and CSRF, secure headers and session ID regeneration …
-- **Backend & API:** REST API, Apache, PostgreSQL
-- **Architecture & Tech:** Custom MVC pattern, no CMS or framework, backend in PHP, frontend in JS, HTML, and CSS (Bootstrap 5)
-
-Website available at https://storyoga.at
 
 ---
 
