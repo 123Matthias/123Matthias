@@ -87,6 +87,16 @@ Here’s a brief overview of my core skills in programming, software development
 
 ---
 
+## AutoCad Library
+- Werkzeugpaletten
+- dynamische Blöcke
+- AutoCAD, AutoCAD LT
+- Installationsvideos
+[Website AutoCAD Library](https://123matthias.github.io/ACAD-Library)
+[AutoCAD Repository](https://github.com/123Matthias/ACAD-Library)  
+
+---
+
 ## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png) 
 - Static website in HTML, CSS, JS  
 - Bootstrap only minimal for support  
