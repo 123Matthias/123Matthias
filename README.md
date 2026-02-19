@@ -26,31 +26,23 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - AutoCAD
 
 # Projekte
-
----
-
 ## AutoCAD Library
 - Werkzeugpaletten
 - dynamische Blöcke
 - AutoCAD, AutoCAD LT
 - Installationsvideos
 
- [Website AutoCAD Library](https://123matthias.github.io/ACAD-Library)
+[Website AutoCAD Library](https://123matthias.github.io/ACAD-Library)
  
 [AutoCAD Repository](https://github.com/123Matthias/ACAD-Library)  
 
----
-
 ## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png)
-
 - Statische Website in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
 - Fertiggestellt, über Cloudflare erreichbar  
 - SEO-optimiert für Google, Bing, DuckDuckGo usw.
 
 [Guttis Repository](https://github.com/123Matthias/Guttis)  
-
----
 
 ## BackupTool &nbsp;  &nbsp; ![Backup Tool](projectImages/logoBackupTool.png)
 - Java-Backup-Programm, in Bearbeitung Stand ca. 60% (Merge- und Full-Backup)  
@@ -61,8 +53,6 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - Testbar mit IntelliJ & Maven
 
 [BackupTool Repository](https://github.com/123Matthias/BackupTool)
-  
----
 
 ## storYoga &nbsp;  &nbsp; ![storYoga Tool](projectImages/logoStoryoga.png)
 - **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
@@ -71,8 +61,6 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - **Architektur & Tech:** Eigenes MVC-Pattern, kein CMS oder Framework, Backend in PHP, Frontend in JS, HTML und CSS (Bootstrap 5)
 
 Website erreichbar unter https://storyoga.at
-
----
 
 <h2 id="contact">✉️ Contact</h2>
 <address class="address">
