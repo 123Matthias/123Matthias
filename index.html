@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Developer Account | Matthias Leiter</title>
 
-    <meta name="description" content="Softwareentwicklung, Java, JS, PHP, Python, Scripts in cmd, zsh oder Powershell. Web Developement, Open Source Projekte.">
+    <meta name="description"
+        content="Softwareentwicklung, Java, JS, PHP, Python, Scripts in cmd, zsh oder Powershell. Web Developement, Open Source Projekte.">
     <meta name="author" content="Matthias Leiter">
     <meta name="robots" content="index, follow">
 
     <link rel="canonical" href="https://123matthias.github.io/123Matthias/">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
- 
+
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -32,6 +33,10 @@
     <meta name="twitter:title" content="GitHub Matthias">
     <meta name="twitter:description" content="Software, Open Source und Websites">
     <meta name="twitter:image" content="https://123matthias.github.io/123Matthias/images/LogoM-socialMedia.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
@@ -61,6 +66,7 @@
 
         async function initPage() {
             await insertReadme();
+            myTopNav();
             addFadeToList();
             makeTopOverflowVisible();
             contentFade();
@@ -75,7 +81,7 @@
         window.addEventListener('resize', contentFade);
 
         function addFadeToList() {
-            document.querySelectorAll(".content *").forEach(element => {
+            document.querySelectorAll(".content > *").forEach(element => {
                 element.classList.add("fade-in-up");
             });
         }
@@ -99,6 +105,39 @@
         window.addEventListener('pageshow', () => {
             requestAnimationFrame(makeTopOverflowVisible);
         });
+
+        function myTopNav() {
+            const h1First = document.querySelector('#content h1');
+            const content = document.querySelector('#content');
+            const links = content.querySelectorAll('p a');
+            
+            h1First.innerHTML = `<i class="fas fa-compass"></i>`;
+h1First.style.display = 'flex';
+h1First.style.justifyContent = 'center';
+h1First.style.padding = '0.5em';
+h1First.style.width = 'max-content';
+
+            if (links.length > 0) {
+
+                // ===== Website (0) =====
+                links[0].classList.add('nav-btn', 'nav-web');
+                let url0 = new URL(links[0].href);
+                let domain0 = url0.hostname.replace('www.', '');
+                links[0].innerHTML = `<i class="fas fa-globe"></i> ${domain0}`;
+
+
+                // ===== GitHub (1) =====
+                links[1].classList.add('nav-btn', 'nav-github');
+                let url1 = new URL(links[1].href);
+                let domain1 = url1.hostname.replace('www.', '');
+                links[1].innerHTML = `<i class="fab fa-github"></i> ${domain1}`;
+
+
+                // ===== Kontakt (2) =====
+                links[2].classList.add('nav-btn', 'nav-contact');      
+                links[2].innerHTML = `<i class="fas fa-envelope"></i>` + ` Kontakt`;
+            }
+        }
 
         function makeTopOverflowVisible() {
             const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
@@ -152,6 +191,9 @@
             <img class="avatar-bg" src='me.PNG' />
         </div>
     </header>
+
+
+
     <section class="container">
         <div id="content" class="content"></div>
     </section>

@@ -107,10 +107,8 @@ address * {
 
 h1 {
   color: var(--header1-color);
-  background-color: var(--link-bg);
-  border: 1px solid var(--text-color);
-  padding: 20px 30px 20px 30px;
-  border-radius: 20px;
+  padding: 0px 30px 20px 0px;
+  border-radius: 8px;
   font-size: 2.8rem;
   font-style: italic;
 }
@@ -203,6 +201,7 @@ h2 {
 
 .header-text {
   font-size: 4.5rem;
+  padding: 20px;;
 
 }
 
@@ -366,7 +365,7 @@ footer {
 
   h1 {
     font-size: 2rem;
-    padding: 15px 15px 15px 30px;
+    padding: 15px 15px 15px 00px;
   }
 
 }
@@ -378,12 +377,12 @@ footer {
   }
 
     h1 {
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 0px;
   }
 
   h1:not(:first-of-type) {
     font-size: 1.66rem;
-    padding: 10px 10px 10px 30px;
+    padding: 10px 10px 10px 0px;
   }
 
 
@@ -449,4 +448,28 @@ footer {
     text-align: center;
   }
 
+}
+
+
+
+
+/*---NAV-----*/
+
+.nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    margin: 6px 8px 6px 0;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+    background: #1e1e1e;
+    color: white;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    background: dodgerblue;
 }
