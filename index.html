@@ -110,32 +110,44 @@
             const h1First = document.querySelector('#content h1');
             const content = document.querySelector('#content');
             const links = content.querySelectorAll('p a');
-            
+
             h1First.innerHTML = `<i class="fas fa-compass"></i>`;
-h1First.style.display = 'flex';
-h1First.style.justifyContent = 'center';
-h1First.style.padding = '0.5em';
-h1First.style.width = 'max-content';
+            h1First.style.display = 'flex';
+            h1First.style.justifyContent = 'center';
+            h1First.style.padding = '0.5em';
+            h1First.style.width = 'max-content';
 
-            if (links.length > 0) {
 
-                // ===== Website (0) =====
+
+
+            if (links.length >= 3) {
+
+                /* ===== Container erstellen ===== */
+                const radialNav = document.createElement('div');
+                radialNav.classList.add('radial-nav');
+
+                /* ===== Compass erzeugen ===== */
+                const compass = document.createElement('div');
+                compass.id = 'compass';
+                compass.innerHTML = `<i class="fas fa-compass"></i>`;
+
+                radialNav.appendChild(compass);
+
+                /* ===== H1 ersetzen ===== */
+                h1First.replaceWith(radialNav);
+
                 links[0].classList.add('nav-btn', 'nav-web');
-                let url0 = new URL(links[0].href);
-                let domain0 = url0.hostname.replace('www.', '');
-                links[0].innerHTML = `<i class="fas fa-globe"></i> ${domain0}`;
+                links[0].innerHTML = `<i class="fas fa-globe"></i>`;
 
-
-                // ===== GitHub (1) =====
                 links[1].classList.add('nav-btn', 'nav-github');
-                let url1 = new URL(links[1].href);
-                let domain1 = url1.hostname.replace('www.', '');
-                links[1].innerHTML = `<i class="fab fa-github"></i> ${domain1}`;
+                links[1].innerHTML = `<i class="fab fa-github"></i>`;
 
+                links[2].classList.add('nav-btn', 'nav-contact');
+                links[2].innerHTML = `<i class="fas fa-envelope"></i>`;
 
-                // ===== Kontakt (2) =====
-                links[2].classList.add('nav-btn', 'nav-contact');      
-                links[2].innerHTML = `<i class="fas fa-envelope"></i>` + ` Kontakt`;
+                radialNav.appendChild(links[0]);
+                radialNav.appendChild(links[1]);
+                radialNav.appendChild(links[2]);
             }
         }
 
