@@ -107,50 +107,40 @@
         });
 
         function myTopNav() {
-            const h1First = document.querySelector('#content h1');
-            const content = document.querySelector('#content');
-            const links = content.querySelectorAll('p a');
+    const content = document.querySelector('#content');
+    const links = content.querySelectorAll('p a');
+    const h1First = document.querySelector('#content h1');
 
-            h1First.innerHTML = `<i class="fas fa-compass"></i>`;
-            h1First.style.display = 'flex';
-            h1First.style.justifyContent = 'center';
-            h1First.style.padding = '0.5em';
-            h1First.style.width = 'max-content';
+    if (links.length >= 3) {
+        /* ===== Container erstellen ===== */
+        const radialNav = document.createElement('div');
+        radialNav.classList.add('radial-nav');
 
+        /* ===== Compass erzeugen ===== */
+        const compass = document.createElement('div');
+        compass.id = 'compass';
+        compass.innerHTML = `<i class="fas fa-compass"></i>`;
+        radialNav.appendChild(compass);
 
+        /* ===== Links einfügen ===== */
+        links[0].classList.add('nav-btn', 'nav-web');
+        links[0].innerHTML = `<i class="fas fa-globe"></i>`;
 
+        links[1].classList.add('nav-btn', 'nav-github');
+        links[1].innerHTML = `<i class="fab fa-github"></i>`;
 
-            if (links.length >= 3) {
+        links[2].classList.add('nav-btn', 'nav-contact');
+        links[2].innerHTML = `<i class="fas fa-envelope"></i>`;
 
-                /* ===== Container erstellen ===== */
-                const radialNav = document.createElement('div');
-                radialNav.classList.add('radial-nav');
+        radialNav.appendChild(links[0]);
+        radialNav.appendChild(links[1]);
+        radialNav.appendChild(links[2]);
 
-                /* ===== Compass erzeugen ===== */
-                const compass = document.createElement('div');
-                compass.id = 'compass';
-                compass.innerHTML = `<i class="fas fa-compass"></i>`;
-
-                radialNav.appendChild(compass);
-
-                /* ===== H1 ersetzen ===== */
-                h1First.replaceWith(radialNav);
-
-                links[0].classList.add('nav-btn', 'nav-web');
-                links[0].innerHTML = `<i class="fas fa-globe"></i>`;
-
-                links[1].classList.add('nav-btn', 'nav-github');
-                links[1].innerHTML = `<i class="fab fa-github"></i>`;
-
-                links[2].classList.add('nav-btn', 'nav-contact');
-                links[2].innerHTML = `<i class="fas fa-envelope"></i>`;
-
-                radialNav.appendChild(links[0]);
-                radialNav.appendChild(links[1]);
-                radialNav.appendChild(links[2]);
-            }
-        }
-
+        /* ===== Direkt ans body hängen ===== */
+         h1First.remove();
+        document.body.appendChild(radialNav);
+    }
+}
         function makeTopOverflowVisible() {
             const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
             console.log("psition Y: " + scrollY);
@@ -195,13 +185,11 @@
         <div class="intro">
             <h1 class="header-text">
                 Welcome to my <br>
-                <span style="color: dodgerblue;">GitHub</span> <br>
+                <span style="color: rgb(0, 0, 0);text-shadow:2px 2px 0 white,-2px 2px 0 white,2px -2px 0 white,-2px -2px 0 white;">GitHub</span> <br>
                 <span>Developer Account</span>
             </h1>
         </div>
-        <div class="image-wrapper">
-            <img class="avatar-bg" src='me.PNG' />
-        </div>
+
     </header>
 
 
