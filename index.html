@@ -67,6 +67,7 @@
         async function initPage() {
             await insertReadme();
             myTopNav();
+            removeContactHeader();
             addFadeToList();
             makeTopOverflowVisible();
             contentFade();
@@ -107,40 +108,40 @@
         });
 
         function myTopNav() {
-    const content = document.querySelector('#content');
-    const links = content.querySelectorAll('p a');
-    const h1First = document.querySelector('#content h1');
+            const content = document.querySelector('#content');
+            const links = content.querySelectorAll('p a');
+            const h1First = document.querySelector('#content h1');
 
-    if (links.length >= 3) {
-        /* ===== Container erstellen ===== */
-        const radialNav = document.createElement('div');
-        radialNav.classList.add('radial-nav');
+            if (links.length >= 3) {
+                /* ===== Container erstellen ===== */
+                const radialNav = document.createElement('div');
+                radialNav.classList.add('radial-nav');
 
-        /* ===== Compass erzeugen ===== */
-        const compass = document.createElement('div');
-        compass.id = 'compass';
-        compass.innerHTML = `<i class="fas fa-compass"></i>`;
-        radialNav.appendChild(compass);
+                /* ===== Compass erzeugen ===== */
+                const compass = document.createElement('div');
+                compass.id = 'compass';
+                compass.innerHTML = `<i class="fas fa-compass"></i>`;
+                radialNav.appendChild(compass);
 
-        /* ===== Links einfügen ===== */
-        links[0].classList.add('nav-btn', 'nav-web');
-        links[0].innerHTML = `<i class="fas fa-globe icon"></i>`;
+                /* ===== Links einfügen ===== */
+                links[0].classList.add('nav-btn', 'nav-web');
+                links[0].innerHTML = `<i class="fas fa-globe icon"></i>`;
 
-        links[1].classList.add('nav-btn', 'nav-github');
-        links[1].innerHTML = `<i class="fab fa-github icon"></i>`;
+                links[1].classList.add('nav-btn', 'nav-github');
+                links[1].innerHTML = `<i class="fab fa-github icon"></i>`;
 
-        links[2].classList.add('nav-btn', 'nav-contact');
-        links[2].innerHTML = `<i class="fas fa-envelope icon"></i>`;
+                links[2].classList.add('nav-btn', 'nav-contact');
+                links[2].innerHTML = `<i class="fas fa-envelope icon"></i>`;
 
-        radialNav.appendChild(links[0]);
-        radialNav.appendChild(links[1]);
-        radialNav.appendChild(links[2]);
+                radialNav.appendChild(links[0]);
+                radialNav.appendChild(links[1]);
+                radialNav.appendChild(links[2]);
 
-        /* ===== Direkt ans body hängen ===== */
-         h1First.remove();
-        document.body.appendChild(radialNav);
-    }
-}
+                /* ===== Direkt ans body hängen ===== */
+                h1First.remove();
+                document.body.appendChild(radialNav);
+            }
+        }
         function makeTopOverflowVisible() {
             const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
             console.log("psition Y: " + scrollY);
@@ -154,6 +155,11 @@
                     el.classList.add('visible');
                 }
             });
+        }
+
+        function removeContactHeader(){
+            const h2 = document.getElementById('contactText');
+            h2.remove();
         }
 
         function isSafariMobile() {
