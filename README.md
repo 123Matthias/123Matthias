@@ -62,12 +62,14 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 
 Website erreichbar unter https://storyoga.at
 
-<h2 id="contact">✉️ Contact</h2>
-<address class="address">
-  Matthias Leiter<br>
-  Ötztal, Tirol, Austria<br>
-  <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a><br>
-  <a href="https://github.com/123Matthias/123Matthias/discussions/1" target="_blank" rel="noopener">GOTO GitHub Discussion</a> (for GitHub Developers)
-</address>
+
+<div id="contact" class=contactContainer>
+  <h2 id="contactText">✉️ Contact</h2>
+  <address class="address">
+    <p class=name>Matthias Leiter</p>
+    <a href="mailto:matthias-github@gmx.at">matthias-github@gmx.at</a><br>
+    <a href="https://github.com/123Matthias/123Matthias/discussions/1" target="_blank" rel="noopener">GOTO GitHub Discussion</a> (for GitHub Developers)
+  </address>
+</div>
 
 
