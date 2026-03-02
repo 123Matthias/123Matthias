@@ -8,7 +8,7 @@
 
 
 # Hallo!
-Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschließend sind ein paar Beispielprojekte gelistet.
+Hier sind meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschließend sind ein paar Beispielprojekte gelistet.
 
 ## Skills
 - Websites in html, css und JS
@@ -26,6 +26,20 @@ Hier ist eine kurze Übersicht über meine Skills im Bereich Programmierung, Sof
 - AutoCAD
 
 # Projekte
+
+## OSWalk (PC search Engine)
+- Linux MacOSX Windows Suchmaschine
+- Volltextsuche nach keywords in Dokumenten
+- Suche nach Dateiname und Inhalt
+- Pfad einstellbar
+- PDF-durchsuchen
+- Terminal - print() wird in Console in GUI übergeben
+- verschiedene Dateiformate erkennbar und erweiterbar
+
+zum Testen main.py in IDE (bspw. VSCode) starten
+
+[Repository OSWalk](https://github.com/123Matthias/OSWalk)
+
 ## AutoCAD Library
 - Werkzeugpaletten
 - dynamische Blöcke
