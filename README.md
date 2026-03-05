@@ -8,22 +8,8 @@
 
 
 # Hallo!
-Hier sind meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen. Anschließend sind ein paar Beispielprojekte gelistet.
+Hier sind ein paar meiner Projekte gelisted an denen ich arbeite. Meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen findet man ganz unten. 
 
-## Skills
-- Websites in html, css und JS
-- Frameworks können erlernt und verwendet werden (Angular etc.)
-- SEO mit Google Search Console oder Bing Webmaster Tool
-- Java-Software
-- PHP, Python
-- MacOSX, Linux, Windows
-- Netzwerktechnik
-- Scripts in bspw: Powershell ...
-
-## Other Skills
-- Maschinenbau, Stahlbau
-- 3D-CAD
-- AutoCAD
 
 # Projekte
 
@@ -75,6 +61,21 @@ zum Testen main.py in IDE (bspw. VSCode) starten
 - **Architektur & Tech:** Eigenes MVC-Pattern, kein CMS oder Framework, Backend in PHP, Frontend in JS, HTML und CSS (Bootstrap 5)
 
 Website erreichbar unter https://storyoga.at
+
+## Skills
+- Websites in html, css und JS
+- Frameworks können erlernt und verwendet werden (Angular etc.)
+- SEO mit Google Search Console oder Bing Webmaster Tool
+- Java-Software
+- PHP, Python
+- MacOSX, Linux, Windows
+- Netzwerktechnik
+- Scripts in bspw: Powershell ...
+
+## Other Skills
+- Maschinenbau, Stahlbau
+- 3D-CAD
+- AutoCAD
 
 
 <div id="contact" class=contactContainer>
