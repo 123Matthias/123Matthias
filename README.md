@@ -62,7 +62,7 @@ zum Testen main.py in IDE (bspw. VSCode) starten
 
 Website erreichbar unter https://storyoga.at
 
-## Skills
+# Skills
 - Websites in html, css und JS
 - Frameworks können erlernt und verwendet werden (Angular etc.)
 - SEO mit Google Search Console oder Bing Webmaster Tool
