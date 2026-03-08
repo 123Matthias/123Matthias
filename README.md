@@ -13,16 +13,20 @@ Hier sind ein paar meiner Projekte gelisted an denen ich arbeite. Meine Skills i
 
 # Projekte
 
-## OSWalk (PC search Engine)
-- Linux MacOSX Windows Suchmaschine
-- Volltextsuche nach keywords in Dokumenten
+## KeySeek App (PC search Engine)
+- Linux MacOSX Windows Suchmaschine (schneller BruteForce nach keywords)
+- PySide GUI mit Dark und Light Theme welches mit Betriessystem umschaltet
+- Ranking mit Priority erstes keyword zählt mehr als zweites usw.
+- Treffersortierung automatisch am Ende des Suchlaufs dach Priority
+- Treffer werden während der Suche dennoch sofort an GUI übergeben kein Warten
+- Volltextsuche nach keywords in Dokumenten mit Multiprocessing und Multithreading
 - Suche nach Dateiname und Inhalt
+- Suchtiefe (mit Anzahl Charakters) einstellbar
 - Pfad einstellbar
-- PDF-durchsuchen
-- Terminal - print() wird in Console in GUI übergeben
-- verschiedene Dateiformate erkennbar und erweiterbar
+- PDF-durchsuchen und viele weitere Dateien mit textract
+- Terminal - print() wird in Console in GUI übergeben für detailiertes Process Feedback
 
-zum Testen main.py in IDE (bspw. VSCode) starten
+zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 04.2026
 
 [Repository OSWalk](https://github.com/123Matthias/OSWalk)
 
