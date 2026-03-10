@@ -8,12 +8,12 @@
 
 
 # Hallo!
-Hier sind ein paar meiner Projekte gelisted an denen ich arbeite. Meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen findet man ganz unten. 
+Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen findet man ganz unten. 
 
 
 # Projekte
 
-## KeySeek App (PC search Engine)
+## KeySearch App (PC search Engine)
 - Linux MacOSX Windows Suchmaschine (schneller BruteForce nach keywords)
 - PySide GUI mit Dark und Light Theme welches mit Betriessystem umschaltet
 - Ranking mit Priority erstes keyword zählt mehr als zweites usw.
