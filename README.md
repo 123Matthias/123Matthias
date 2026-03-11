@@ -40,7 +40,7 @@ zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 0
  
 [AutoCAD Repository](https://github.com/123Matthias/ACAD-Library)  
 
-## Guttis &nbsp;  &nbsp; ![Guttis Logo](projectImages/logoGuttis.png)
+## Guttis
 - Statische Website in HTML, CSS, JS  
 - Bootstrap nur minimal zur Unterstützung  
 - Fertiggestellt, über Cloudflare erreichbar  
@@ -48,7 +48,7 @@ zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 0
 
 [Guttis Repository](https://github.com/123Matthias/Guttis)  
 
-## BackupTool &nbsp;  &nbsp; ![Backup Tool](projectImages/logoBackupTool.png)
+## BackupTool
 - Java-Backup-Programm, in Bearbeitung Stand ca. 60% (Merge- und Full-Backup)  
 - Multithreading & dynamisches Speicher-Buffering  
 - AES-Verschlüsselung (mehrere Methoden)  
@@ -58,7 +58,7 @@ zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 0
 
 [BackupTool Repository](https://github.com/123Matthias/BackupTool)
 
-## storYoga &nbsp;  &nbsp; ![storYoga Tool](projectImages/logoStoryoga.png)
+## storYoga
 - **Server & Infrastruktur:** Linux VPS, Cloudflare Reverse Proxy mit Turnstile
 - **Sicherheit:** Admin Area mit MFA-Login, Schutz vor SQL Injection, Session-Fixation und CSRF, sichere Header und Session-ID-Regeneration ...
 - **Backend & API:** REST API, Apache, PostgreSQL
