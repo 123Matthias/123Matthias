@@ -23,12 +23,15 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 - Suche nach Dateiname und Inhalt
 - Suchtiefe (mit Anzahl Charakters) einstellbar
 - Pfad einstellbar
+- Snippet größe einstellbar
+- Gewichtung der Suchwörter nach Position (kann aktiviert werden in den Einstellungen)
+- Mehrsprachig (Language pack als .json key value pairs)
 - PDF-durchsuchen und viele weitere Dateien mit textract
 - Terminal - print() wird in Console in GUI übergeben für detailiertes Process Feedback
 
 zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 04.2026
 
-[Repository OSWalk](https://github.com/123Matthias/OSWalk)
+[Repository KeySearch](https://github.com/123Matthias/KeySearch)
 
 ## AutoCAD Library
 - Werkzeugpaletten
