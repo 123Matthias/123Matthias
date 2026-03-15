@@ -13,12 +13,13 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 
 # Projekte
 
-## KeySearch App (PC search Engine)
+## SelfSearch App (PC search Engine)
+- .dmg alpha release bereits verfügbar
 - Linux MacOSX Windows Suchmaschine (schneller BruteForce nach keywords)
 - PySide GUI mit Dark und Light Theme welches mit Betriessystem umschaltet
 - Ranking mit Priority erstes keyword zählt mehr als zweites usw.
 - Treffersortierung automatisch am Ende des Suchlaufs dach Priority
-- Treffer werden während der Suche dennoch sofort an GUI übergeben kein Warten
+- Treffer werden während der Suche sofort an GUI übergeben - kein Warten
 - Volltextsuche nach keywords in Dokumenten mit Multiprocessing und Multithreading
 - Suche nach Dateiname und Inhalt
 - Suchtiefe (mit Anzahl Charakters) einstellbar
@@ -29,7 +30,7 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 - PDF-durchsuchen und viele weitere Dateien mit textract
 - Terminal - print() wird in Console in GUI übergeben für detailiertes Process Feedback
 
-zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs spätestens ab 04.2026
+zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs demnächst auch für Windows
 
 [Repository KeySearch](https://github.com/123Matthias/KeySearch)
 
