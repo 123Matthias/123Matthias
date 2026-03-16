@@ -13,7 +13,7 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 
 # Projekte
 
-## SelfSearch App (PC search Engine)
+## FileSearch App (PC search Engine)
 - .dmg alpha release bereits verfügbar
 - Linux MacOSX Windows Suchmaschine (schneller BruteForce nach keywords)
 - PySide GUI mit Dark und Light Theme welches mit Betriessystem umschaltet
@@ -32,7 +32,7 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 
 zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs demnächst auch für Windows
 
-[Repository KeySearch](https://github.com/123Matthias/KeySearch)
+[Repository FileSearch](https://github.com/123Matthias/FileSearch)
 
 ## AutoCAD Library
 - Werkzeugpaletten
