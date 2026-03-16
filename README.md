@@ -14,25 +14,12 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 # Projekte
 
 ## FileSearch App (PC search Engine)
-- .dmg alpha release bereits verfügbar
-- Linux MacOSX Windows Suchmaschine (schneller BruteForce nach keywords)
-- PySide GUI mit Dark und Light Theme welches mit Betriessystem umschaltet
-- Ranking mit Priority erstes keyword zählt mehr als zweites usw.
-- Treffersortierung automatisch am Ende des Suchlaufs dach Priority
-- Treffer werden während der Suche sofort an GUI übergeben - kein Warten
-- Volltextsuche nach keywords in Dokumenten mit Multiprocessing und Multithreading
-- Suche nach Dateiname und Inhalt
-- Suchtiefe (mit Anzahl Charakters) einstellbar
-- Pfad einstellbar
-- Snippet größe einstellbar
-- Gewichtung der Suchwörter nach Position (kann aktiviert werden in den Einstellungen)
-- Mehrsprachig (Language pack als .json key value pairs)
-- PDF-durchsuchen und viele weitere Dateien mit textract
-- Terminal - print() wird in Console in GUI übergeben für detailiertes Process Feedback
-
-zum Testen main.py in IDE (bspw. VSCode) starten Installer gibs demnächst auch für Windows
-
-[Repository FileSearch](https://github.com/123Matthias/FileSearch)
+- Suchmaschine für lokale Dateien. GUI wie Web Search Engines
+- Ranking der Suchergebnisse
+- Snippets, Suchtiefe und Sprache sind Einstellbar
+- Installer im Git Hub Release Bereich verfügbar für Windows und MacOSX
+- [Repository FileSearch](https://github.com/123Matthias/FileSearch)
+- Download App https://github.com/123Matthias/FileSearch/releases/tag/0.0.0-alpha
 
 ## AutoCAD Library
 - Werkzeugpaletten
