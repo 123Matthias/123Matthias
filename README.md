@@ -18,8 +18,11 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 - Ranking der Suchergebnisse
 - Snippets, Suchtiefe und Sprache sind Einstellbar
 - Installer im Git Hub Release Bereich verfügbar für Windows und MacOSX
-- [Repository FileSearch](https://github.com/123Matthias/FileSearch)
 - Download App in [Download Area](https://github.com/123Matthias/FileSearch/releases/tag/0.0.0-alpha)
+
+
+[Repository FileSearch](https://github.com/123Matthias/FileSearch)
+
 
 ## AutoCAD Library
 - Werkzeugpaletten
