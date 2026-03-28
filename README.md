@@ -17,6 +17,7 @@ Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Progra
 - Suchmaschine für lokale Dateien. GUI wie Web Search Engines
 - Ranking der Suchergebnisse
 - Snippets, Suchtiefe und Sprache sind Einstellbar
+- Alpha Test Version is finished
 - Installer im Git Hub Release Bereich verfügbar für Windows und MacOSX
 - Download App in [Download Area](https://github.com/123Matthias/FileSearch/releases/tag/0.0.0-alpha)
 
