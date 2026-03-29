@@ -7,11 +7,9 @@
 [✉️ Contact me here](#contact)
 
 
-# Hallo!
-Hier sind ein paar meiner Projekte aufgelitestet. Meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen findet man ganz unten. 
-
-
 # Projekte
+Hier sind ein paar meiner Projekte aufgelistet. Meine Skills im Bereich Programmierung, Softwareentwicklung und technischen Anwendungen findet man ganz unten.
+
 
 ## FileSearch App (PC search Engine)
 - Suchmaschine für lokale Dateien. GUI wie Web Search Engines
