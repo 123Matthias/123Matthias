@@ -1,6 +1,6 @@
 :root {
   --header1-color: #5f0093;
-  --header-color: #008693;
+  --header2-color: #008693;
   --link-color: #1e90ff;
   --link-bg: rgba(30, 144, 255, 0.1);
   --link-border: rgba(30, 144, 255, 0.3);
@@ -25,7 +25,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --header1-color: #ed4cff;
-    --header-color: #41e9ff;
+    --header2-color: #41e9ff;
     --link-color: #9fcfff;
     --link-bg: rgba(102, 178, 255, 0.1);
     --link-border: rgb(255, 255, 255);
@@ -87,8 +87,6 @@ body {
 }
 
 
-
-
 img {
   float: right;
   height: 60px;
@@ -100,6 +98,7 @@ img {
 #content h1~p {
   display: inline-block;
   margin: 0;
+  padding-left: 20px;
 }
 
 #content h1~p a {
@@ -109,7 +108,7 @@ img {
   align-items: center;
   justify-content: center;
   padding: 0.4rem 0.9rem;
-  margin: 0.3rem;
+  margin: 5px 0 5px 0px;
   color: var(--link-color);
   background: var(--link-bg);
   border: 1px solid var(--link-border);
@@ -128,7 +127,7 @@ img {
 
 @media (min-width:1200px) {
   #content h1~p a:hover {
-    transform: translateY(-6px) scale(1.01);
+    transform: scale(1.1);
   }
 }
 
@@ -162,26 +161,28 @@ a {
 
 h1 {
   color: var(--header1-color);
-  padding: 0px 30px 20px 0px;
-  border-radius: 8px;
+  padding: 20px 30px 20px 0px;
+  margin: 25px 0 0 0;
   font-size: 2.8rem;
   font-style: italic;
 }
 
-#content h1:not(:first-of-type) {
-  margin-top: 100px;
+h1:not(:first-of-type) {
+  border-top: 1px solid var(--header1-color);
 }
 
 
 h2,
 h3 {
   font-style: italic;
-  color: var(--header-color);
+  color: var(--header2-color);
 }
 
 h2 {
-  border-left: 5px solid var(--header-color);
   padding-left: 10px;
+  padding-top: 25px;
+  border-top: 1px solid var(--header2-color);
+  margin: 70px 0 10px 0;
 
 }
 
@@ -246,12 +247,11 @@ h2 {
   max-height: 100%;
 }
 
-
 .container {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 60vh auto 0 auto;
+  margin: 75vh auto 0 auto;
   max-width: 1500px;
   border-radius: 8px;
   z-index: 0 !important;
@@ -259,10 +259,8 @@ h2 {
   z-index: 10;
 }
 
-
-
 .content {
-  width: 100%;
+  width: 80%;
   padding: 50px;
   border: 1px solid black;
   border-radius: 8px;
@@ -275,6 +273,29 @@ h2 {
 }
 
 
+@keyframes jump {
+  0%, 100% {
+    transform: translateX(-50%) translateY(-130%);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-140%); /* 10px nach oben = -140% */
+  }
+}
+
+#content::before {
+  content: "\f885";
+  font-family: "Font Awesome 7 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: var(--header2-color);
+  animation: jump 1s ease-in-out infinite;
+}
+
+
 ul {
   list-style: none;
   /* Standard-Punkte entfernen */
@@ -282,7 +303,6 @@ ul {
 
 ul li {
   position: relative;
-  padding-left: 1.5em;
   /* Platz für Bullet */
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -291,17 +311,16 @@ ul li {
 ul li::before {
   content: "✖";
   /* X-Symbol */
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   color: var(--link-color, #1e90ff);
   /* Farbe optional über Variable */
   font-size: 1em;
   line-height: 1;
+  padding-right: 6px;
+  padding-left: 0;
 }
-
-
-
 
 footer {
   display: flex;
@@ -407,12 +426,12 @@ footer {
 
   .container {
     width: 100%;
-    margin: 60vh 0 0 0;
+    margin: 75vh 0 0 0;
   }
 
   .content {
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     padding: 20px;
   }
 
@@ -439,14 +458,13 @@ footer {
   }
 
 
-
   .intro {
     display: flex;
     height: 250px;
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin: 15vh 15px 0 15px;
+    margin: 18vh 15px 0 15px;
   }
 
   .content {
@@ -455,9 +473,6 @@ footer {
     padding: 15px;
   }
 
-  ul {
-    padding-left: 10px;
-  }
 
   .header-text {
     font-size: 2rem !important;
@@ -465,7 +480,7 @@ footer {
   }
 
   .container {
-    margin: 50vh 0 0 0;
+    margin: 60vh 0 0 0;
   }
 
   footer {
@@ -508,7 +523,7 @@ footer {
   background: #00000011;
   backdrop-filter: blur(4px);
   border: 1px solid var(--link-color);
-  color: var(--header-color);
+  color: var(--header2-color);
   display: flex;
   align-items: center;
   justify-content: center;
