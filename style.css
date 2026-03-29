@@ -213,7 +213,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 
@@ -415,8 +415,12 @@ footer {
 
 @media (max-width: 1200px) {
 
+  .intro {
+    margin-top: 18vh;
+  }
+
   .header-text {
-    font-size: 3rem;
+    font-size: 3rem !important;
     text-align: center;
   }
 
